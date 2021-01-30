@@ -4,8 +4,8 @@ Modify this code such that the program prints out the time every second.
 */
 
 
-let d = new Date();
-let time = d.toLocaleTimeString();
+//let d = new Date();
+//let time = d.toLocaleTimeString();
 //console.log(time);
 
 function print_curr_time() {
@@ -15,3 +15,4 @@ function print_curr_time() {
 }
 
 let intervalID = setInterval(print_curr_time,1000);
+
